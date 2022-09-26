@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="process.php">
+    
+    <label for="name"><strong>Name</strong></label><br/>
+    <input type="text" id="name" placeholder="Your Name"/><br/>
+    <label for="email"><strong>Email</strong></label><br/>
+    <input type="email" id="email" name="email" placeholder="Your Email"/><br/>
+    <label for="password"><strong>Password</strong></label><br/>
+    <input type="password" id="password" name="password" placeholder="Your Password"/><br/>
+    <strong>Gender</strong><br>
+    Male
+    <input type="radio" name="Gender" value="Male">
+    Female
+    <input type="radio" name="Gender" value="Female"><br/>
+    <strong type="10px">Hobbies</strong><br/>
+    Music
+    <input type="checkbox" value="music" id="music">
+    Technology
+    <input type="checkbox" name="Technology" value="Technology"><br/>
+    <strong>Degree</strong><br/>
+    <select name="degree" id="degree">
+        <option value="bachelor"><italic>lisans</italic></option>
+        <option value="msc"><italic>Master</italic></option>
+
+    </select>
+    <br/>
+    <textarea name="message" id="message" rows = "10" cols="25" placeholder="Your Message"></textarea><br/>
+    <input type="submit" value="submit"/>
+    <input type="reset" value="reset"/>
+
+
+
+</form>
+
+
+    
+</body>
+</html>
